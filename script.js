@@ -1,9 +1,9 @@
-// Função para virar os Flashcards ao clicar
+// Alterna a classe flipped para girar o flashcard ao clicar
 function flipCard(cardElement) {
   cardElement.classList.toggle('flipped');
 }
 
-// Animação de entrada suave ao carregar a página
+// Log de verificação e inicialização
 document.addEventListener('DOMContentLoaded', () => {
-  console.log("Site do ENEM carregado com sucesso! 🚀");
+  console.log("🚀 Plataforma ENEM carregada com sucesso!");
 });
